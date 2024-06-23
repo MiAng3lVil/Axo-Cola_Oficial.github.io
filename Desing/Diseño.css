@@ -537,6 +537,40 @@ main section:nth-child(7) p {
     font-size: 1.3rem;
 }
 
+main section:nth-child(8){
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 20px ;
+    transition: all .4s ease;
+    padding-bottom: 200px;
+}
+
+main section:nth-child(8) h2 {
+    position: relative;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    padding-bottom: 7px;
+    padding-top: 200px;
+}
+
+main section:nth-child(8) h2::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    margin: auto;
+    width: 70px;
+    background-color: #ff0000;
+}
+
+main section:nth-child(8) p {
+    width: 50%;
+    margin: auto;
+    font-size: 1.3rem;
+}
+
 @media screen and (max-width:600px) {
     html {
         font-size: 12px;
@@ -860,5 +894,17 @@ body.active main section:nth-child(7) h2{
 }
 
 body.active main section:nth-child(7) p{
+    color: #bdbdbd;
+}
+
+body.active main section:nth-child(8){
+    background-color: #2c2c2c;
+}
+
+body.active main section:nth-child(8) h2{
+    color: #fff;
+}
+
+body.active main section:nth-child(8) p{
     color: #bdbdbd;
 }
