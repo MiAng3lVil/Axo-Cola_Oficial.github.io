@@ -16,15 +16,15 @@ nav {
     padding: 15px;
     justify-content: space-between;
     align-items: center;
-    background-color: #a41b16;
+    background-color: #9001a3;
     box-shadow: 0px 3px 5px 0px rgba(99, 98, 98, 0.75);
     z-index: 99;
     transition: all .4s ease;
 }
 
 #logo {
-    width: 150px;
-    height: 75px;
+    width: 90px;
+    height: 90px;
 }
 
 nav span {
@@ -80,9 +80,8 @@ nav ul li a {
 header {
     position: relative;
     display: flex;
-    height: 100vh;
     background-color: #fff;
-    width: 110%;
+    width: 100%;
 }
 
 .header__info {
@@ -127,7 +126,7 @@ h1 {
 .info__childs button {
     margin-top: 30px;
     padding: 15px 50px;
-    background-color: #cb3234;
+    background-color: #008512;
     outline: none;
     border: none;
     border-radius: 5px;
@@ -144,7 +143,7 @@ h1 {
 
 .y-container {
     width: 30%;
-    background-color: #cb3234;
+    background-color: #7d008d;
 }
 
 main section:first-child {
@@ -158,10 +157,10 @@ main section:first-child {
 }
 
 .about-img {
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
     margin-left: 90px;
-    outline: solid 10px #ff0000;
+    outline: solid 10px #7d008d;
 }
 
 .about-img img {
@@ -188,7 +187,7 @@ main section:first-child article h2::before {
     position: absolute;
     width: 15%;
     height: 150%;
-    border-bottom: 5px solid #ff0000;
+    border-bottom: 5px solid #008512;
     margin:5px 0;
 }
 
@@ -199,7 +198,7 @@ main section:first-child article h2::before {
 .about-btns button {
     padding: 15px 30px;
     margin: 0 5px;
-    background-color: #cb3234;
+    background-color: #9001a3;
     outline: none;
     border: none;
     border-radius: 5px;
@@ -212,6 +211,8 @@ main section:first-child article h2::before {
 .about-btns button:first-child:hover {
     box-shadow: 0px 0px 20px 0px rgba(189,182,189,1);
 }
+
+
 
 .about-btns button:nth-child(2) {
     background-color: transparent;
@@ -250,7 +251,7 @@ main section:nth-child(2) h2::before {
     height: 5px;
     margin: auto;
     width: 70px;
-    background-color: #ff0000;
+    background-color: #008512;
 }
 
 main section:nth-child(2) p {
@@ -317,19 +318,27 @@ main section:nth-child(2) p {
 }
 
 .blue {
-    background-color: #ed392d;
+    background-color: #6f0085;
 }
 
 .yellow {
-    background-color: #db503e;
+    background-color: #003e85;
 }
 
 .purp {
-    background-color: #c8604e;
+    background-color: #008512;
 }
 
 .green {
-    background-color: #b36c5e;
+    background-color: #00857a;
+}
+
+.green1 {
+    background-color: #db503e;
+}
+
+.green2 {
+    background-color: #585858;
 }
 
 main section:nth-child(3){
@@ -357,7 +366,7 @@ main section:nth-child(3) h2::before {
     height: 5px;
     margin: auto;
     width: 70px;
-    background-color: #ff0000;
+    background-color: #008512;
 }
 
 main section:nth-child(3) p {
@@ -369,240 +378,6 @@ main section:nth-child(3) p {
 .Galery{
     width: 20%;
     height: 25%;
-}
-
-main section:nth-child(4){
-    background-color: #eeeeee;
-    text-align: center;
-    padding: 20px ;
-    transition: all .4s ease;
-    padding-bottom: 200px;
-}
-
-main section:nth-child(4) h2 {
-    position: relative;
-    margin-bottom: 30px;
-    font-size: 2rem;
-    padding-bottom: 7px;
-    padding-top: 200px;
-}
-
-main section:nth-child(4) h2::before {
-    content: "";
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    height: 5px;
-    margin: auto;
-    width: 70px;
-    background-color: #ff0000;
-}
-
-main section:nth-child(4) p {
-    width: 50%;
-    margin: auto;
-    font-size: 1.3rem;
-}
-
-
-.texto{
-    text-align: justify;
-}
-
-#titulo{
-    text-align: center;
-    font-size: 100px;
-    color: #ff0000;
-}
-
-.subtituloimport{
-    text-align: justify;
-    color: #ff0000;
-}
-
-.subtitulo{
-    text-align: justify;
-    color: #db503e;
-}
-
-#bibliografia{
-    text-align: left;
-}
-
-.links{
-    text-decoration: none;
-    color:#000
-}
-
-main section:nth-child(5){
-    background-color: #fff;
-    text-align: center;
-    padding: 20px ;
-    transition: all .4s ease;
-    padding-bottom: 200px;
-}
-
-main section:nth-child(5) h2 {
-    position: relative;
-    margin-bottom: 30px;
-    font-size: 2rem;
-    padding-bottom: 7px;
-    padding-top: 200px;
-}
-
-main section:nth-child(5) h2::before {
-    content: "";
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    height: 5px;
-    margin: auto;
-    width: 70px;
-    background-color: #ff0000;
-}
-
-main section:nth-child(5) p {
-    width: 50%;
-    margin: auto;
-    font-size: 1.3rem;
-}
-
-main section:nth-child(6){
-    background-color: #eeeeee;
-    text-align: center;
-    padding: 20px ;
-    transition: all .4s ease;
-    padding-bottom: 200px;
-}
-
-main section:nth-child(6) h2 {
-    position: relative;
-    margin-bottom: 30px;
-    font-size: 2rem;
-    padding-bottom: 7px;
-    padding-top: 200px;
-}
-
-main section:nth-child(6) h2::before {
-    content: "";
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    height: 5px;
-    margin: auto;
-    width: 70px;
-    background-color: #ff0000;
-}
-
-main section:nth-child(6) p {
-    width: 50%;
-    margin: auto;
-    font-size: 1.3rem;
-}
-
-main section:nth-child(7){
-    background-color: #fff;
-    text-align: center;
-    padding: 20px ;
-    transition: all .4s ease;
-    padding-bottom: 200px;
-}
-
-main section:nth-child(7) h2 {
-    position: relative;
-    margin-bottom: 30px;
-    font-size: 2rem;
-    padding-bottom: 7px;
-    padding-top: 200px;
-}
-
-main section:nth-child(7) h2::before {
-    content: "";
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    height: 5px;
-    margin: auto;
-    width: 70px;
-    background-color: #ff0000;
-}
-
-main section:nth-child(7) p {
-    width: 50%;
-    margin: auto;
-    font-size: 1.3rem;
-}
-
-main section:nth-child(8){
-    background-color: #eeeeee;
-    text-align: center;
-    padding: 20px ;
-    transition: all .4s ease;
-    padding-bottom: 200px;
-}
-
-main section:nth-child(8) h2 {
-    position: relative;
-    margin-bottom: 30px;
-    font-size: 2rem;
-    padding-bottom: 7px;
-    padding-top: 200px;
-}
-
-main section:nth-child(8) h2::before {
-    content: "";
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    height: 5px;
-    margin: auto;
-    width: 70px;
-    background-color: #ff0000;
-}
-
-main section:nth-child(8) p {
-    width: 50%;
-    margin: auto;
-    font-size: 1.3rem;
-}
-
-main section:nth-child(9){
-    background-color: #fff;
-    text-align: center;
-    padding: 20px ;
-    transition: all .4s ease;
-    padding-bottom: 200px;
-}
-
-main section:nth-child(9) h2 {
-    position: relative;
-    margin-bottom: 30px;
-    font-size: 2rem;
-    padding-bottom: 7px;
-    padding-top: 200px;
-}
-
-main section:nth-child(9) h2::before {
-    content: "";
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    height: 5px;
-    margin: auto;
-    width: 70px;
-    background-color: #ff0000;
-}
-
-main section:nth-child(9) p {
-    width: 50%;
-    margin: auto;
-    font-size: 1.3rem;
 }
 
 @media screen and (max-width:600px) {
@@ -800,11 +575,11 @@ main section:nth-child(9) p {
 /* cambio de color */
 
 body.active nav {
-    background-color: #8C3428;
+    background-color: #660080;
 }
 
 body.active nav ul{
-    background-color: #8C3428;
+    background-color: #660080;
 }
 
 body.active nav ul li a{
@@ -816,7 +591,7 @@ body.active .header__info{
 }
 
 body.active h1{
-    color: #cb3234;
+    color: #ca03f1;
 }
 
 body.active .descripcion{
@@ -856,101 +631,5 @@ body.active main section:nth-child(3) h2{
 }
 
 body.active main section:nth-child(3) p{
-    color: #bdbdbd;
-}
-
-body.active main section:nth-child(4){
-    background-color: #2c2c2c;
-}
-
-body.active main section:nth-child(4) h2{
-    color: #fff;
-}
-
-body.active main section:nth-child(4) p{
-    color: #bdbdbd;
-}
-
-body.active main section:nth-child(4) .subtituloimport{
-    color: #ff0000;
-}
-
-body.active main section:nth-child(4) .subtitulo{
-    color: #db503e;
-}
-
-body.active main section:nth-child(4) a{
-    color: #bdbdbd;
-}
-
-body.active main section:nth-child(5){
-    background-color: #313131;
-}
-
-body.active main section:nth-child(5) h2{
-    color: #fff;
-}
-
-body.active main section:nth-child(5) p{
-    color: #bdbdbd;
-}
-
-body.active main section:nth-child(6){
-    background-color: #2c2c2c;
-}
-
-body.active main section:nth-child(6) h2{
-    color: #fff;
-}
-
-body.active main section:nth-child(6) p{
-    color: #bdbdbd;
-}
-
-body.active main section:nth-child(6) .subtituloimport{
-    color: #ff0000;
-}
-
-body.active main section:nth-child(6) .subtitulo{
-    color: #db503e;
-}
-
-body.active main section:nth-child(6) a{
-    color: #bdbdbd;
-}
-
-body.active main section:nth-child(7){
-    background-color: #313131;
-}
-
-body.active main section:nth-child(7) h2{
-    color: #fff;
-}
-
-body.active main section:nth-child(7) p{
-    color: #bdbdbd;
-}
-
-body.active main section:nth-child(8){
-    background-color: #2c2c2c;
-}
-
-body.active main section:nth-child(8) h2{
-    color: #fff;
-}
-
-body.active main section:nth-child(8) p{
-    color: #bdbdbd;
-}
-
-body.active main section:nth-child(9){
-    background-color: #313131;
-}
-
-body.active main section:nth-child(9) h2{
-    color: #fff;
-}
-
-body.active main section:nth-child(9) p{
     color: #bdbdbd;
 }
